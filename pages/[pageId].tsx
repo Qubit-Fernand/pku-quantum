@@ -32,7 +32,17 @@ export async function getStaticPaths() {
     }
   }
 
-  const siteMap = await getSiteMap()
+  let siteMap
+  try {
+    siteMap = await getSiteMap()
+  } catch (err) {
+    console.warn('failed to generate static page paths', err)
+
+    return {
+      paths: [],
+      fallback: true
+    }
+  }
 
   const staticPaths = {
     paths: Object.keys(siteMap.canonicalPageMap).map((pageId) => ({
