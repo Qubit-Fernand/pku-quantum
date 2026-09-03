@@ -1,4 +1,16 @@
 
+## Branch notes
+
+This `2025` branch is connected to a private Notion page used to archive the
+historical course record for that year.
+
+The `main` branch is connected to the shared Notion page for the live course
+site. Changes made in that shared Notion interface are ultimately rendered as
+the course homepage at <https://pku-quantum.tech>.
+
+Branches named `20xx` are reserved for private Notion pages that archive
+historical course records.
+
 Forked from [transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit).
 
 <p align="center">
