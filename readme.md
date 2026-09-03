@@ -14,6 +14,13 @@ the course homepage at <https://pku-quantum.tech>.
 Branches named `20xx` are connected to private Notion pages and are used to
 archive historical course records.
 
+Archive deployments:
+
+- [Quantum Computing 2025](https://pku-quantum-2025.vercel.app/)
+- [Quantum Computing 2024](https://pku-quantum-2024.vercel.app/)
+- [Quantum Computing 2023](https://pku-quantum-2023.vercel.app/)
+- [Quantum Computing 2022](https://pku-quantum-2022.vercel.app/)
+
 ## Upstream
 
 Forked from
