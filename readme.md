@@ -49,6 +49,32 @@ preview deployments.
 The `2026` branch exists in Git, but there is currently no `pku-quantum-2026`
 Vercel project configured.
 
+## Recommended Versions
+
+Use these versions when reproducing the project locally or recreating a Vercel
+project:
+
+| Tool or package | Recommended version |
+| --- | --- |
+| Node.js | `22.x` |
+| npm | bundled with Node 22 |
+| Yarn | `1.22.x` |
+| Vercel CLI | `59.x` |
+| Next.js | `^12.2.3` |
+| React | `^17.0.2` |
+| TypeScript | `^4.4.4` |
+| `react-notion-x` | `^6.12.7` |
+| `notion-client`, `notion-types`, `notion-utils` | `^6.12.6` |
+
+`package.json` pins the deployment Node runtime with `"engines": { "node":
+"22.x" }`. Dependencies should be installed with Yarn, using `yarn.lock` as the
+source of truth:
+
+```bash
+yarn install --frozen-lockfile
+yarn build
+```
+
 When this README should stay fully synchronized across branches, edit it on
 `main` first and copy it to archive branches:
 
