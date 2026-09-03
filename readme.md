@@ -5,6 +5,13 @@
 This repository hosts the Next.js + Notion mirror for the Peking University
 Introduction to Quantum Computing course site.
 
+## Upstream
+
+Forked from
+[transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit).
+For the original starter-kit documentation, see the
+[upstream README](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/blob/main/readme.md).
+
 ## Branch Mapping
 
 The `main` branch is connected to the shared Notion page for the live course
@@ -85,10 +92,3 @@ for branch in 2022 2023 2024 2025 2026; do
   git commit -m "docs: sync readme"
 done
 ```
-
-## Upstream
-
-Forked from
-[transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit).
-For the original starter-kit documentation, see the
-[upstream README](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/blob/main/readme.md).
